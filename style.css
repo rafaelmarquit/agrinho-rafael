@@ -1,0 +1,32 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal:'inter';
+    font-size: 40px;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.container__imagem {
+    margin: 6em 0 6em 0;
+}
+
+.container__descricao {
+    padding: 4em;
+    font-size: 40px;
+}
+
+.descricao__texto {
+    padding: 8em;
+    font-size: 300px;
+    font-weight: 100;
+}
+
